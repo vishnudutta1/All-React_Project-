@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  
 }
 
 .App-logo {
@@ -35,3 +40,23 @@
 body{
   background-color: #61dafb;
 }
+
+.row-jc-center{
+
+  margin-left: 250px;
+ 
+  display: flex;
+}
+
+.Design-span{
+  background-color: aliceblue;
+  width: 170px;
+
+  border: 2px solid red;
+  row-gap: 20px;
+  column-gap: 10px;
+  padding: 30px;
+
+
+
+} 

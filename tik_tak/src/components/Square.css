@@ -1,0 +1,12 @@
+.Design-span{
+    background-color: aliceblue;
+    width: 170px;
+  
+    border: 2px solid red;
+    row-gap: 20px;
+    column-gap: 10px;
+    padding: 30px;
+
+
+
+} 
