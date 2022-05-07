@@ -21,7 +21,7 @@ function App() {
     <Square/>
     
     </div>
-
+ 
     <div className='row-jc-center'>
     <Square/>
     <Square/>
