@@ -30,44 +30,48 @@
 
 
 
-var input  = 4
-function runProgram(n) {
-  var mat = []
-  var num = n+n-1
-  for(var i = 0; i<num; i++){
-    var abc = []
-    for(var j = 0; j<num; j++){
-      abc.push(n)
-    }
-    mat.push(abc)
-  }
-  var left = 0
-  var right = num-1
-  var top = 0
-  var bottom = num-1
-  while(num>0){
-    for(var i = left; i<right; i++){
-      mat[i][top] = n
-    }
-    for(var i = top; i<bottom; i++){
-      mat[right][i] = n
-    }
-    for(var i = right; i>=left; i--){
-      mat[i][bottom] = n
-    }
-    for(var i = bottom; i>=top; i--){
-      mat[left][i] = n
-    }
-    n--;
-    left++;
-    right--;
-    top++;
-    bottom--;
-    num = num-2;
-  }
-  for(var i = 0; i<mat.length; i++){
-    console.log(mat[i].join(" "));
-  }
-}
+// var input  = 4
+// function runProgram(n) {
+//   var mat = []
+//   var num = n+n-1
+//   for(var i = 0; i<num; i++){
+//     var abc = []
+//     for(var j = 0; j<num; j++){
+//       abc.push(n)
+//     }
+//     mat.push(abc)
+//   }
+//   var left = 0
+//   var right = num-1
+//   var top = 0
+//   var bottom = num-1
+//   while(num>0){
+//     for(var i = left; i<right; i++){
+//       mat[i][top] = n
+//     }
+//     for(var i = top; i<bottom; i++){
+//       mat[right][i] = n
+//     }
+//     for(var i = right; i>=left; i--){
+//       mat[i][bottom] = n
+//     }
+//     for(var i = bottom; i>=top; i--){
+//       mat[left][i] = n
+//     }
+//     n--;
+//     left++;
+//     right--;
+//     top++;
+//     bottom--;
+//     num = num-2;
+//   }
+//   for(var i = 0; i<mat.length; i++){
+//     console.log(mat[i].join(" "));
+//   }
+// }
 
-runProgram(input)
+// runProgram(input)
+
+
+
+
