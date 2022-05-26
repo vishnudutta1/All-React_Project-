@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
+import React from 'react';
+import Header from './components/Header';
+
 function App() {
   return (
     <div className="App">
 
-      <div className="header_logo">
-
-
-      </div>
-
-      <div className="header_searchBar">
-
-
-      </div>
-
-      <div className="header_nav">
-
-        
-      </div>
+      <Header/>
       
     </div>
   );

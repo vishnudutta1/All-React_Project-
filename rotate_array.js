@@ -4,7 +4,7 @@ var arr = [1,2,3,4,5]
 
 var d = 2;
 
-var i = 1;
+var i = 1
 
 while(i<=d){
     
