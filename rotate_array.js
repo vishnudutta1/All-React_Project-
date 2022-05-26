@@ -8,9 +8,12 @@ var i = 1;
 
 while(i<=d){
     
-
+    rotate(arr)
+    i++
 
 }
+
+console.log(arr)
 
 function rotate(arr){
 
@@ -21,9 +24,21 @@ function rotate(arr){
 
     while(k<=l){
 
-        var x = 
+       if(k!=l){
+        var x = arr[k];
+        arr[k] = arr[k+1];
+        k++
+        
+       }
+       else if(k==l){
+           var x = arr[l]
+
+       }
+
 
 
     }
+
+    return arr
 
 }
