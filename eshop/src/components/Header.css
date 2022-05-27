@@ -26,7 +26,31 @@
 }
 
 .header_searchInput{
-    
+
 }
 
+.Search_bar{
 
+}
+
+.nav_itenLineOne{
+    font-size: 10px;
+
+}
+
+.nav_itemLineTwo{
+font-size: 13px;
+font-weight: 800;
+}
+
+.nav_item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_logoImage{
+    margin-right: 10px;
+}
