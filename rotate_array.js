@@ -31,7 +31,7 @@ function rotate(arr){
         
        }
        else if(k==l){
-           var x = arr[l]
+         arr[l] = x
 
        }
 
