@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
-import {Bar} from 'react-chartjs-2';
+import React from 'react';
+import {ResponsiveContainer,LineChart,Line} from 'react-chartjs-2'
 
+function Chart() {
+  return (
+  <div>
+       <div>Chart</div>
+    <ResponsiveContainer width = "100%" aspect = {3}>
+       <LineChart>
 
-export default class BarChartComponent extends Component
-{
-   constructor(props) {
-      super(props);
-      this.state ={
-       }
-  }
-   render()
-   {
-      return(
-         <div>
-            <Bar/>
-         </div>
-      )
-   }
+       </LineChart>
+       
+    </ResponsiveContainer>
+  </div>
+  )
 }
+
+export default Chart
